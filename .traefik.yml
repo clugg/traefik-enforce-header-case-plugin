@@ -1,0 +1,11 @@
+displayName: Enforce Header Case
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/clugg/traefik-enforce-header-case-plugin
+
+summary: 'Enforces the case of specified request headers.'
+
+testData:
+  Headers:
+    - x-tEsT-hEAder
